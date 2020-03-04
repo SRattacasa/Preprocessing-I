@@ -4,16 +4,80 @@
 <head>
   <meta charset="utf-8">
 
-  <title>My Resume</title>
+  <title>Resume</title>
 
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
 </head>
 
 <body>
-  <h1>My Resume</h1>
+<!-- added header and topnav class for CSS -->
+    <header>
+        <nav class="topnav">
+            
+            <a href="#">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">Background</a>
+            <a href="#">Blog</a>
+            <a href="#">Certifications</a>
+        </nav>
+
+    </header>
+
+    <div class="container">
+   
+        <section class="top-content">
+            <div class="text-container">
+                <h2>The Candidate Intro</h2>
+                <p>I'm a faster learning, hard worker, and very bored with the Lambda CSS work.</p>
+            </div>
+            <!-- <div class="text-container">
+                <h2>The Past</h2>
+                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
+            </div> -->
+        </section>
+        
+        <section class="middle-content">
+        
+            <h2>Skills</h2>
+            <!-- added secondary class label like b1 to allow for single box css targeting -->
+            <div class="boxes">
+                <div class="box b1">Javascript</div>
+                <div class="box b2 ">Marketing</div>
+                <div class="box b3">HTML5</div>
+                <div class="box b4">CSS3</div>
+            </div>
+        
+        </section>
+
+        <section class="bottom-content">
+
+            <div class="text-container">
+                <h2>The Past</h2>
+                <p>I roasted coffee and sold it with an ecommerce platform.</p>
+            </div>
+            <!-- <div class="text-container">
+                <h2>No</h2>
+                <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
+            </div>
+            <div class="text-container">
+                <h2>Moon</h2>
+                <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
+            </div> -->
+
+        </section>
+        
+        <footer>
+            <p>Contact me at my email address something@gmail.org</p>
+            <!-- <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a> -->
+            <!-- </nav> --> 
+        </footer>
+    </div><!-- container -->        
 </body>
 </html>
